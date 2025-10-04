@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Greathela - Vidéos de Koudous</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f6f8fa; color: #111; }
+    header { background: #16a34a; color: white; padding: 18px; text-align: center; font-size: 22px; font-weight:700; }
+    .container { max-width:900px; margin: 18px auto; padding: 0 16px; }
+    section { background: white; border-radius: 12px; padding: 18px; margin-bottom: 14px; box-shadow: 0 6px 18px rgba(15,23,42,0.06); }
+    h1,h2 { margin: 0 0 10px 0; }
+    p { margin: 8px 0; line-height:1.5; color: #222; }
+    .btn { display:inline-block; margin:8px 6px 0 0; padding:12px 20px; background:#16a34a; color:white; text-decoration:none; border-radius:8px; font-weight:700; }
+    .btn.secondary { background: #0ea5a4; }
+    iframe { width:100%; height:360px; border-radius:10px; margin:12px 0; border:0; }
+    .notice { background: linear-gradient(90deg,#fff6f0,#fff); border-left:6px solid #f97316; padding:14px; border-radius:8px; margin-bottom:12px; }
+    .danger { background:#fff1f2; border-left:6px solid #ef4444; color:#991b1b; padding:14px; border-radius:8px; margin-bottom:12px; }
+    a.paylink { word-break:break-all; color:#0b6f6a; font-weight:700; text-decoration:underline; }
+    footer { text-align:center; color:#6b7280; font-size:13px; padding:16px 0 40px 0; }
+  </style>
+</head>
+<body>
+  <header>🚀 Greathela - Page officielle de Koudous</header>
+
+  <div class="container">
+
+    <section>
+      <h2>💎 Découvre mes vidéos</h2>
+      <p>Regarde pourquoi ce projet cartonne en Afrique et comment des personnes commencent à gagner chaque jour.</p>
+      <a href="https://greathela.com/register/koudo8" class="btn" target="_blank">👉 S’inscrire maintenant</a>
+      <a href="https://wa.me/22893794506" class="btn secondary" target="_blank">💬 Me contacter (WhatsApp)</a>
+    </section>
+
+    <!-- IMPORTANT : encart ajouté -->
+    <section>
+      <div class="notice">
+        <strong>Important :</strong>
+        <p>L'inscription seule ne suffit pas : <strong>sans recharge/activation</strong> votre compte Greathela ne pourra pas générer de gains. Si vous rencontrez un problème pour recharger votre compte sur Greathela, utilisez l'option alternative ci-dessous.</p>
+      </div>
+
+      <div class="danger">
+        <strong>Procédure alternative pour recharger :</strong>
+        <p>Si vous ne parvenez pas à recharger via la plateforme, utilisez le lien de paiement alternatif :</p>
+        <p><a class="paylink" href="https://soleaspay.com/m/NRDKC1OXDU" target="_blank">https://soleaspay.com/m/NRDKC1OXDU</a></p>
+        <p><strong>IMPORTANT :</strong> lors du paiement, <em>indiquez exactement</em> le <strong>même nom, numéro de téléphone et e-mail</strong> que vous avez utilisés pour créer votre compte Greathela — cela permet de relier correctement le paiement à votre compte.</p>
+      </div>
+
+      <p style="font-size:13px; color:#334155;">Remarque : conservez toujours la preuve de paiement (capture d’écran ou numéro de transaction) et partagez-la dans le groupe WhatsApp si nécessaire pour accélérer la validation.</p>
+    </section>
+    <!-- FIN encart -->
+
+    <section>
+      <h2>📹 Mes Vidéos</h2>
+      <!-- Tes vidéos intégrées -->
+      <iframe src="https://www.youtube.com/embed/zltkX0uS7nM" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/cPZSKrhkmTY" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h2>📩 Contact & Preuves</h2>
+      <p>Envie d'aide pour valider ton paiement ? Envoie ta capture de paiement sur WhatsApp et je t'aide à faire le suivi.</p>
+      <a href="https://wa.me/22893794506" class="btn" target="_blank">💬 Envoyer la preuve</a>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Greathela — Page gérée par Koudous. Ne partagez jamais vos mots de passe.
+    </footer>
+
+  </div>
+
+  <script>document.getElementById('year').innerText = new Date().getFullYear();</script>
+</body>
+</html>                    
